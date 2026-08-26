@@ -21,7 +21,7 @@ class Father extends Grandfather{
     }
 }
 
-class Son extends Grandfather{
+class Son extends Father{
     void study(){
         System.out.println("Son is study");
         System.out.println();
